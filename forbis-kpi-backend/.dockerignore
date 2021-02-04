@@ -1,0 +1,5 @@
+/node_modules/
+/server/
+/Dockerfile
+/.dockerignore
+/utils/instantclient_18_5_win

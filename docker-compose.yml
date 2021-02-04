@@ -1,0 +1,11 @@
+version: "3.6"
+
+services:
+  rest-service:
+    build: ./forbis-kpi-backend
+    ports:
+      - 3001:3001
+  app-service:
+    build: ./forbis-performance-stat-app
+    ports:
+      - 46000:3000

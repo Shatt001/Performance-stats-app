@@ -1,0 +1,10 @@
+.page-header {
+  background: $dark-blue;
+  color     : $off-white;
+
+  &__title {
+    font-weight: 300;
+    margin     : 0;
+    font-size  : $l-size;
+  }
+}
